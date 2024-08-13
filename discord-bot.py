@@ -86,6 +86,6 @@ async def on_ready():
     channel = bot.get_channel(channel_id)
     print('connected')
     if channel:
-        await channel.send("VAMO VAMO CORINTHIANS, carrega kalishnikov")
+        await channel.send("VAMO VAMO CORINTHIANS")
 
 bot.run('your key here')
