@@ -87,5 +87,6 @@ async def on_ready():
     print('connected')
     if channel:
         await channel.send("VAMO VAMO CORINTHIANS")
+#testando o git pull
 
 bot.run('your key here')
